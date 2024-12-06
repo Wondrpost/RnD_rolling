@@ -13,10 +13,10 @@
             <div class="form-container">
                 <img src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png" alt="illustration" class="illustration" />
                 <h1 class="opacity">LOGIN</h1>
-                <form>
-                    <input type="text" placeholder="USERNAME" />
-                    <input type="password" placeholder="PASSWORD" />
-                    <button class="opacity">SUBMIT</button>
+                <form id="loginForm">
+                    <input id="usernameInput" type="text" placeholder="USERNAME" />
+                    <input id="passwordInput" type="password" placeholder="PASSWORD" />
+                    <button type="button" class="opacity" onclick="login()">SUBMIT</button>
                 </form>
                 <div class="register-forget opacity">
                     <a href="">REGISTER</a>
@@ -27,8 +27,7 @@
         </div>
         <div class="theme-btn-container"></div>
     </section>
-    <script>
-        // kode jsnya
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="Login_page.js"></script>
 </body>
 </html>
